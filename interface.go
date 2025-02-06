@@ -67,3 +67,13 @@ type IField interface {
 	Set(IObject, IObject)
 	SetPrimitive(IObject, any)
 }
+
+type IBooleanArray = IGenericArray[JBoolean]
+type IByteArray = IGenericArray[JByte]
+type ICharArray = IGenericArray[JChar]
+type IShortArray = IGenericArray[JShort]
+type IIntArray = IGenericArray[JInt]
+type ILongArray = IGenericArray[JLong]
+type IFloatArray = IGenericArray[JFloat]
+type IDoubleArray = IGenericArray[JDouble]
+type IObjectArray = IGenericArray[IObject]
